@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene background="color: #FFFFFF">
+    <a-assets>
+      <img id="Grass" src="assets/grasstexture.jpeg">
+      <img id="Concrete" src="assets/concretetexture.jpeg">
+      <img id="Windows" src="assets/windowtexture.jpeg">
+      <img id="Wall" src="assets/walltexture.jpeg">
+      <img id="Roof" src="assets/rooftexture.jpeg">
+      <img id="Sky" src="assets/skytexture.jpeg">
+    </a-assets>
+    
+    <!--Front Right Wall-->
+    <a-box 
+    position="1.954 0.592 -1.869" 
+    rotation="-88.928 105.676 -14.702"
+    scale="0.025 1.010 1.000" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/walltexture.jpeg"
+    ></a-box>
+    
+    <!--Front Left Wall-->
+    <a-box 
+    position="0.004 0.600 -1.875" 
+    rotation="-88.928 105.676 -14.702"
+    scale="0.025 1.951 1.000" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/walltexture.jpeg" 
+    ></a-box>
+
+    <!--Left Wall-->
+    <a-box 
+    position="-0.939 0.619 -2.845" 
+    rotation="-88.928 103.153 -104.175"
+    scale="0.025 1.951 0.987" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/walltexture.jpeg" 
+    ></a-box>
+
+    <!--Right Wall-->
+    <a-box 
+    position="2.472 0.619 -2.876" 
+    rotation="-88.928 103.153 -104.175"
+    scale="0.025 2.013 0.901" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/walltexture.jpeg" 
+    ></a-box>
+    
+    <!--Back Wall-->
+    <a-box 
+    position="0.743 0.587 -3.852" 
+    rotation="-88.928 105.676 -14.702"
+    scale="0.025 3.489 1.000" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/walltexture.jpeg" 
+    ></a-box>
+
+    <!--Front Windows-->
+    <a-box 
+    position="-0.007 0.597 -1.849" 
+    rotation="-88.928 105.676 -14.702"
+    scale="0.036 1.293 0.747" 
+    color="#FFFFFF"
+    segments-radial="4"
+    src="assets/windowtexture.jpeg"
+    ></a-box>
+
+    <!--Roof Base-->
+    <a-box 
+    position="1.189 1.069 -2.774" 
+    rotation="0 177.838 0"
+    scale="5.270 0.114 2.182" 
+    color="#FFFFFF"
+    src="assets/rooftexture.jpeg" 
+    ></a-box>
+
+    <!--Left Roof Slant-->
+    <a-box 
+    position="0.203 1.224 -2.634" 
+    rotation="2.964 175.489 -6.551"
+    scale="3.931 0.111 2.107" 
+    color="#FFFFFF"
+    src="assets/rooftexture.jpeg" 
+    ></a-box>
+
+    <!--Right Roof Slant-->
+    <a-box 
+    position="2.345 1.093 -3.152" 
+    rotation="-0.659 175.799 21.818"
+    scale="1.910 0.146 2.597" 
+    color="#FFFFFF"
+    src="assets/rooftexture.jpeg" 
+    ></a-box>
+
+    <!--Sky-->
+    <a-sky
+      src="assets/skytexture.jpeg"
+    ></a-sky>
+    
+    <!--Grass-->
+    <a-plane 
+    position="0 0 -4" 
+    rotation="-90 0 0" 
+    width="500" 
+    height="500" 
+    color="#7BC8A4" 
+    src="assets/grasstexture.jpeg"
+    ></a-plane>
+
+     <!--House Lot-->
+    <a-plane 
+    position="0 0.118 -4" 
+    rotation="-90 0 0" 
+    width="6" 
+    height="6" 
+    color="#7BC8A4"
+    src="assets/concretetexture.jpeg" 
+    ></a-plane>
+  </a-scene>
+</body>
+</html>
